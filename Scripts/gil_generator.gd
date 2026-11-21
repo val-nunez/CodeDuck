@@ -1,5 +1,7 @@
 extends Node
 
+# EVERYTHING BELOW IS PRACTICE
+
 # Variables
 var rotation: int = 0
 var forward: int = 0
