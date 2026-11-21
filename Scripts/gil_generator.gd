@@ -5,6 +5,7 @@ extends Node
 # Variables
 var rotation: int = 0
 var forward: int = 0
+var health: int = 100
 
 # Function Definitions
 func rotate(radians):
@@ -42,9 +43,16 @@ func draw_square(length, radians):
 
 	print("Square done!")
 
+	# Change Health
+func player_health(amount):
+		health -= amount
+		print("Damage Taken! Health is: ", health)
+
 # Start
 func _ready():
 	
 	rotate(1.5)
 
 	draw_square(300, 90)
+
+	player_health(25)
