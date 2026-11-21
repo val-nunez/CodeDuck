@@ -38,5 +38,6 @@ func _ready():
 	OpenChest()
 
 	# Function call, with argument
+	# This is not flexible. It should take in any value, not a fixed value.
 	EarnGil(gil)
 	EarnGil(gil)
