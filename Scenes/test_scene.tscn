@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://bwui2lx0ea6u"]
 
-[ext_resource type="Script" uid="uid://dobsmvgeaymx7" path="res://Scripts/gil_generator.gd" id="1_3dogw"]
+[ext_resource type="Script" uid="uid://8imffo54c0io" path="res://Scripts/test_script.gd" id="1_3dogw"]
 
 [node name="Hero" type="Node2D" unique_id=722908043]
 script = ExtResource("1_3dogw")
