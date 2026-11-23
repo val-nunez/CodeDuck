@@ -30,12 +30,11 @@ func draw_line(point_a, point_b, offset):
 	# Change Health
 func player_health(amount):
 	health -= amount
-	print("Damage Taken! Health is: ", health)
+	print("Damage taken! health is now: ", health)
 
 func heal_player(amount):
 	health += amount
-	print("Player healed: ", amount)
-	print("Health is now: ", health)
+	print("Player healed! Health is now: ", health)
 
 # Start
 func _ready():
