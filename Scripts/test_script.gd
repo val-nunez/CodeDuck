@@ -37,15 +37,18 @@ func print_numbers():
 		print(number)
 		number += 1
 
-
+var cell := Vector2(0,0)
 
 func _ready() -> void:
 	
-	print_numbers()
+	for counter in range(1, 4):
+		cell += Vector2(1, 1)
+		print(counter, " ", cell)
+
+	# print_numbers()
 
 	print("Current Level: ", level)
 
 	level_up()
 
 	take_damage(10)
-
