@@ -38,6 +38,7 @@ func print_numbers():
 		number += 1
 
 
+
 func _ready() -> void:
 	
 	print_numbers()
