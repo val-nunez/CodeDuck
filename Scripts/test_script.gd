@@ -41,9 +41,23 @@ var cell := Vector2(0,0)
 
 func _ready() -> void:
 	
-	for counter in range(1, 4):
-		cell += Vector2(1, 1)
-		print(counter, " ", cell)
+# Print 3 lines, 3 times
+	for num in range(2):
+		print("Hey!")
+	print("Listen!")
+
+# Print 10 lines, in descending order
+	for num in range(3, 0, -1):
+		cell += Vector2(0.1, 0.1)
+		print("Count!", num, cell)
+
+# Print 5 lines, in ascending order
+	for num in range(1, 6):
+		print(num)
+
+# Print one half of a pyramid
+	for row in range(1, 5):
+		print("*".repeat(row))
 
 	# print_numbers()
 
